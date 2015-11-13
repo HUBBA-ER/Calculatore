@@ -5,22 +5,22 @@ var calc = function() {
   //adding
   if (Op == "ADD") {
     var a = no1 + no2
-    document.write("The sum is" + " :" + a.2String)
+    document.write("The sum is" + " :" + a.toString())
   }
   //subtracting
   else if (Op == "SUBTRACT") {
     var a = no1 - no2
-    document.write("The difference is" + " :" + a.2String)
+    document.write("The difference is" + " :" + a.toString())
   }
   //multiplying
   else if (Op == "MULTIPLY") {
     var a = no1 * no2
-    document.write("The product is" + " :" + a.2String)
+    document.write("The product is" + " :" + a.toString())
   }
   //dividing
   else if (Op == "DIVIDE") {
     var a = no1 / no2
-    document.write("The quotient is" + " :" + a.2String)
+    document.write("The quotient is" + " :" + a.toString())
   }
 }
 calc()
