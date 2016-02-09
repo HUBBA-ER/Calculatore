@@ -22,6 +22,9 @@ var calc = function() {
     var a = no1 / no2;
     document.write("The quotient is" + ": " + a.toString());
   }
+  else {
+    document.write("Sorry, that is not a verified command. Please refresh and try again.")
+  }
 }
 
 
